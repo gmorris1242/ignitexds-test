@@ -62,6 +62,11 @@ nav ul li {
   display: none;
 }
 
+#menu-icon:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
 #menu-icon i {
   font-size: 30px;
 }
@@ -129,6 +134,7 @@ nav ul li {
 }
 
 .second-container .titles h2 {
+  color: darkgray;
   font-style: italic;
   font-size: 35px;
   padding-bottom: 50px;
@@ -158,7 +164,6 @@ nav ul li {
 }
 
 .brain-section h4 {
-  /* padding-bottom: 50px; */
   font-style: italic;
   font-weight: normal;
 }
@@ -228,7 +233,50 @@ nav ul li {
   font-style: italic;
   border-top: 5px solid gray;
   border-bottom: 5px solid gray;
+}
 
+.bulb-head-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+  color: white;
+}
+
+.bulb-head-container h2,
+.bulb-head-container h4,
+.bulb-head-container img {
+  padding: 150px 50px 0 50px;
+}
+
+.bulb-head-container h2,
+.bulb-head-container h4 {
+  text-align: left;
+}
+
+.bulb-head-container h2 {
+  font-size: 45px;
+}
+
+.bulb-head-container h4 {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.75;
+  padding-top: 50px;
+}
+
+.bulb-head-container img {
+  width: 100%;
+}
+
+.bulb-head-container .left,
+.bulb-head-container .right {
+  width: 50%;
+  min-width: 300px;
+}
+
+.down-arrow-two {
+  position: relative;
+  bottom: 40px;
 }
 
 @media (max-width: 1080px) {
