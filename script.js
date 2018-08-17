@@ -1,7 +1,7 @@
-let menuBtn = $('#menu-icon');
-let hiddenMenu = $('#hidden-menu');
-let exitBtn = $('#exit');
-let body = $('body');
+const menuBtn = $('#menu-icon');
+const hiddenMenu = $('#hidden-menu');
+const exitBtn = $('#exit');
+const body = $('body');
 
 // menu button functionality
 menuBtn.click(() => {
